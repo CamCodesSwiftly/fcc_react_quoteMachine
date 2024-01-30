@@ -1,0 +1,82 @@
+:root {
+    --main-color: red;
+  }
+  
+  body {
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--main-color);
+    color: var(--main-color);
+    font-family: "Raleway", sans-serif;
+  }
+  
+  #quote-box {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: 30vh auto;
+    border-radius: 4px;
+    color: var(--main-color);
+  }
+  
+  #text-wrapper {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  span {
+    font-size: 30px;
+  }
+  
+  .fa-quote-left {
+    display: inline;
+  }
+  
+  #text {
+    font-size: 32px;
+  }
+  
+  #author {
+    text-align: right;
+    font-weight: 300;
+  }
+  
+  #buttons {
+    margin-top: 70px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  i {
+    color: var(--main-color);
+  }
+  
+  i:hover {
+    cursor: pointer;
+    color: hsl(0, 100%, 80%);
+  }
+  
+  button {
+    border: none;
+    color: white;
+    font-size: 14px;
+    background-color: var(--main-color);
+    padding: 13px 20px;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: hsl(0, 100%, 80%);
+  }
+  
+  #credits {
+    color: white;
+    font-size: 13px;
+    margin-top: 89px;
+  }
+  
